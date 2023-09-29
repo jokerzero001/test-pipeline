@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'mylabserver.com'
-    }
+    agent any
     
     stages {
         stage('Checkout Code') {
